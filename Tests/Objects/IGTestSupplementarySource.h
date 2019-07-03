@@ -9,7 +9,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <IGListKit/IGListKit.h>
+#import "IGListKit.h"
 
 @interface IGTestSupplementarySource : NSObject <IGListSupplementaryViewSource>
 

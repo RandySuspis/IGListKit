@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <IGListKit/IGListKit.h>
+#import "IGListKit.h"
 
 #define genTestObject(k, v) [[IGTestObject alloc] initWithKey:k value:v]
 

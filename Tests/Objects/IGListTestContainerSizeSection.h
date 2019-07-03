@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <IGListKit/IGListSectionController.h>
+#import "IGListSectionController.h"
 
 
 @interface IGListTestContainerSizeSection : IGListSectionController

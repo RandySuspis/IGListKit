@@ -7,7 +7,7 @@
 
 #import "IGListTestAdapterReorderingDataSource.h"
 
-#import <IGListKit/IGListAdapter.h>
+#import "IGListAdapter.h"
 
 #import "IGTestReorderableSection.h"
 

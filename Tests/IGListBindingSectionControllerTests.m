@@ -8,7 +8,7 @@
 #import <XCTest/XCTest.h>
 
 #import <OCMock/OCMock.h>
-#import <IGListKit/IGListKit.h>
+#import "IGListKit.h"
 
 #import "IGTestDiffingDataSource.h"
 #import "IGTestDiffingObject.h"

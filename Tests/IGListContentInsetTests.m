@@ -9,7 +9,7 @@
 
 #import <XCTest/XCTest.h>
 
-#import <IGListKit/IGListKit.h>
+#import "IGListKit.h"
 #import "UIScrollView+IGListKit.h"
 #import "IGListTestHelpers.h"
 #import "IGListAdapterInternal.h"

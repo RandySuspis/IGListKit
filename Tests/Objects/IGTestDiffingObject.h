@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <IGListKit/IGListDiffable.h>
+#import "IGListDiffable.h"
 
 @interface IGTestDiffingObject : NSObject<IGListDiffable>
 

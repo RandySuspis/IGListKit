@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <IGListKit/IGListDiffable.h>
+#import "IGListDiffable.h"
 
 #import "IGTestObject.h"
 #import "IGLayoutTestItem.h"

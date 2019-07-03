@@ -11,8 +11,8 @@
 
 #import <vector>
 
-#import <IGListKit/IGListAssert.h>
-#import <IGListKit/IGListCollectionViewDelegateLayout.h>
+#import "IGListAssert.h"
+#import "IGListCollectionViewDelegateLayout.h"
 
 static CGFloat UIEdgeInsetsLeadingInsetInDirection(UIEdgeInsets insets, UICollectionViewScrollDirection direction) {
     switch (direction) {

@@ -8,7 +8,7 @@
 #import "IGListIndexSetResult.h"
 #import "IGListIndexSetResultInternal.h"
 
-#import <IGListKit/IGListMoveIndex.h>
+#import "IGListMoveIndex.h"
 
 @implementation IGListIndexSetResult {
     NSMapTable<id<NSObject>, NSNumber *> *_oldIndexMap;

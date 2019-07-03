@@ -8,8 +8,8 @@
 #import <XCTest/XCTest.h>
 #import <OCMock/OCMock.h>
 
-#import <IGListKit/IGListReloadDataUpdater.h>
-#import <IGListKit/IGListWorkingRangeDelegate.h>
+#import "IGListReloadDataUpdater.h"
+#import "IGListWorkingRangeDelegate.h"
 
 #import "IGListAdapterInternal.h"
 #import "IGListTestAdapterDataSource.h"

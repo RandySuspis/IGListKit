@@ -7,7 +7,7 @@
 
 #import <XCTest/XCTest.h>
 
-#import <IGListKit/IGListGenericSectionController.h>
+#import "IGListGenericSectionController.h"
 
 @interface IGListGenericSectionControllerTests : XCTestCase
 

@@ -7,7 +7,7 @@
 
 #import "IGListTestAdapterStoryboardDataSource.h"
 
-#import <IGListKit/IGListAdapter.h>
+#import "IGListAdapter.h"
 
 #import "IGListTestStoryboardSection.h"
 

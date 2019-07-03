@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <IGListKit/IGListDisplayDelegate.h>
+#import "IGListDisplayDelegate.h"
 
 #import "IGListStackedSectionController.h"
 

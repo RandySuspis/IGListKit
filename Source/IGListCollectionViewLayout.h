@@ -7,8 +7,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import <IGListKit/IGListMacros.h>
-#import <IGListKit/IGListExperiments.h>
+#import "IGListMacros.h"
+#import "IGListExperiments.h"
 
 #import "IGListCollectionViewLayoutCompatible.h"
 

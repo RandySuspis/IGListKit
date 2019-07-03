@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <IGListKit/IGListMacros.h>
+#import "IGListMacros.h"
 
 @class IGListMoveIndexPath;
 @class IGListReloadIndexPath;

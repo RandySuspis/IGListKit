@@ -9,7 +9,7 @@
 
 #import "IGListTestAdapterDataSource.h"
 
-#import <IGListKit/IGListAdapter.h>
+#import "IGListAdapter.h"
 
 #import "IGListTestSection.h"
 #import "IGListTestContainerSizeSection.h"

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <IGListKit/IGListKit.h>
+#import "IGListKit.h"
 
 @interface IGTestSingleWithoutDeselectionDelegate : NSObject <IGListSingleSectionControllerDelegate>
 

@@ -9,7 +9,7 @@
 
 #import "IGTestStackedDataSource.h"
 
-#import <IGListKit/IGListStackedSectionController.h>
+#import "IGListStackedSectionController.h"
 
 #import "IGTestCell.h"
 #import "IGListTestSection.h"

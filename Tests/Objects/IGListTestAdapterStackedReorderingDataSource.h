@@ -7,9 +7,9 @@
 
 #import <Foundation/Foundation.h>
 
-#import <IGListKit/IGListAdapterDataSource.h>
-#import <IGListKit/IGListAdapterMoveDelegate.h>
-#import <IGListKit/IGListSectionController.h>
+#import "IGListAdapterDataSource.h"
+#import "IGListAdapterMoveDelegate.h"
+#import "IGListSectionController.h"
 
 #import "IGListTestCase.h"
 #import "IGTestObject.h"

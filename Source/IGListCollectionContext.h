@@ -7,9 +7,9 @@
 
 #import <UIKit/UIKit.h>
 
-#import <IGListKit/IGListBatchContext.h>
-#import <IGListKit/IGListCollectionScrollingTraits.h>
-#import <IGListKit/IGListExperiments.h>
+#import "IGListBatchContext.h"
+#import "IGListCollectionScrollingTraits.h"
+#import "IGListExperiments.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

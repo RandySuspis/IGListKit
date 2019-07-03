@@ -7,4 +7,4 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 
-#import <IGListKit/IGListKit.h>
+#import "IGListKit.h"

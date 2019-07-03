@@ -10,7 +10,7 @@
 #import <XCTest/XCTest.h>
 #import <OCMock/OCMock.h>
 
-#import <IGListKit/IGListKit.h>
+#import "IGListKit.h"
 
 #import "IGListAdapterInternal.h"
 #import "IGListDisplayHandler.h"

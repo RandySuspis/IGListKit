@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <IGListKit/IGListAdapterUpdateListener.h>
+#import "IGListAdapterUpdateListener.h"
 
 @interface IGListAdapterUpdateTester : NSObject <IGListAdapterUpdateListener>
 

@@ -9,8 +9,8 @@
 
 #import <objc/runtime.h>
 
-#import <IGListKit/IGListAssert.h>
-#import <IGListKit/IGListSupplementaryViewSource.h>
+#import "IGListAssert.h"
+#import "IGListSupplementaryViewSource.h"
 
 #import "IGListSectionControllerInternal.h"
 

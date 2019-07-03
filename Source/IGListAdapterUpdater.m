@@ -8,11 +8,11 @@
 #import "IGListAdapterUpdater.h"
 #import "IGListAdapterUpdaterInternal.h"
 
-#import <IGListKit/IGListAssert.h>
-#import <IGListKit/IGListBatchUpdateData.h>
-#import <IGListKit/IGListDiff.h>
-#import <IGListKit/IGListIndexSetResultInternal.h>
-#import <IGListKit/IGListMoveIndexPathInternal.h>
+#import "IGListAssert.h"
+#import "IGListBatchUpdateData.h"
+#import "IGListDiff.h"
+#import "IGListIndexSetResultInternal.h"
+#import "IGListMoveIndexPathInternal.h"
 
 #import "UICollectionView+IGListBatchUpdateData.h"
 #import "IGListReloadIndexPath.h"

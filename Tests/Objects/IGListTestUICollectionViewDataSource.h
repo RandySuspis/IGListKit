@@ -9,7 +9,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <IGListKit/IGListDiffable.h>
+#import "IGListDiffable.h"
 
 @interface IGSectionObject : NSObject <IGListDiffable>
 

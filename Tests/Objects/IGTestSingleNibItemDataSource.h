@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <IGListKit/IGListAdapterDataSource.h>
+#import "IGListAdapterDataSource.h"
 
 #import "IGTestObject.h"
 #import "IGListTestCase.h"

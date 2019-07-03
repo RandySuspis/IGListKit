@@ -7,10 +7,10 @@
 
 #import "IGListAdapterInternal.h"
 
-#import <IGListKit/IGListAssert.h>
-#import <IGListKit/IGListAdapterUpdater.h>
-#import <IGListKit/IGListSupplementaryViewSource.h>
-#import <IGListKit/IGSystemVersion.h>
+#import "IGListAssert.h"
+#import "IGListAdapterUpdater.h"
+#import "IGListSupplementaryViewSource.h"
+#import "IGSystemVersion.h"
 
 #import "IGListSectionControllerInternal.h"
 #import "IGListDebugger.h"

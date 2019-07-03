@@ -5,10 +5,10 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <IGListKit/IGListSectionController.h>
+#import "IGListSectionController.h"
 
-#import <IGListKit/IGListExperiments.h>
-#import <IGListKit/IGListMacros.h>
+#import "IGListExperiments.h"
+#import "IGListMacros.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
