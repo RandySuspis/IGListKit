@@ -322,7 +322,7 @@
 		883796FF2022304D00B94676 /* IGListIndexSetResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 29DAA770201FBD870029277A /* IGListIndexSetResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		883797022022304D00B94676 /* IGListMoveIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 29DAA780201FBD870029277A /* IGListMoveIndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		883797042022304D00B94676 /* NSString+IGListDiffable.h in Headers */ = {isa = PBXBuildFile; fileRef = 29DAA773201FBD870029277A /* NSString+IGListDiffable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		883797082022304E00B94676 /* BuildFile in Headers */ = {isa = PBXBuildFile; };
+		883797082022304E00B94676 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		8837970C2022304E00B94676 /* IGListMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 29DAA781201FBD870029277A /* IGListMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		883797112022308200B94676 /* IGListTransitionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 29DAA7A6201FBD9B0029277A /* IGListTransitionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88379712202230DE00B94676 /* IGListDiff.h in Headers */ = {isa = PBXBuildFile; fileRef = 29DAA78A201FBD870029277A /* IGListDiff.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -654,6 +654,8 @@
 		88DF897C1E010E6A00B1B9B4 /* IGListKit-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IGListKit-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		917E89871E800EE70015F934 /* IGListCollectionViewLayoutInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGListCollectionViewLayoutInternal.h; sourceTree = "<group>"; };
 		9574C58371B7A46F62E9AC24 /* Pods-IGListKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitTests/Pods-IGListKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		A51CE04B22CCC77700C2E27C /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		A51CE04C22CCC78200C2E27C /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		B27EBB8A227276EA007C2F36 /* IGSystemVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGSystemVersion.m; sourceTree = "<group>"; };
 		B27EBB8B227276EA007C2F36 /* IGSystemVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGSystemVersion.h; sourceTree = "<group>"; };
 		B27EBB9522727726007C2F36 /* IGListCollectionViewLayoutCompatible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGListCollectionViewLayoutCompatible.h; sourceTree = "<group>"; };
@@ -984,6 +986,8 @@
 		887D0B2C1D870D7E009E01F7 = {
 			isa = PBXGroup;
 			children = (
+				A51CE04B22CCC77700C2E27C /* Package.swift */,
+				A51CE04C22CCC78200C2E27C /* module.modulemap */,
 				41882EBBC340173A8053E3AF /* Frameworks */,
 				30B5A6475AE0ACFF15B23D2B /* Pods */,
 				887D0B371D870D7E009E01F7 /* Products */,
@@ -1234,7 +1238,7 @@
 				B2C7FFC922728A3B00EB9063 /* IGListAdapterPerformanceDelegate.h in Headers */,
 				883797152022319400B94676 /* IGListMoveIndexInternal.h in Headers */,
 				883796EA2022301F00B94676 /* IGListDiffable.h in Headers */,
-				883797082022304E00B94676 /* BuildFile in Headers */,
+				883797082022304E00B94676 /* (null) in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2055,6 +2059,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = module.modulemap;
 				OTHER_CFLAGS = (
 					"-Wambiguous-macro",
 					"-Wbool-conversion",
@@ -2133,6 +2138,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = module.modulemap;
 				OTHER_CFLAGS = (
 					"-Wambiguous-macro",
 					"-Wbool-conversion",
