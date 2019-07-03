@@ -15,10 +15,10 @@
 #import "IGListMacros.h"
 #import "IGListExperiments.h"
 
-#import "IGListIndexPathResultInternal.h"
-#import "IGListIndexSetResultInternal.h"
-#import "IGListMoveIndexInternal.h"
-#import "IGListMoveIndexPathInternal.h"
+#import "Internal/IGListIndexPathResultInternal.h"
+#import "Internal/IGListIndexSetResultInternal.h"
+#import "Internal/IGListMoveIndexInternal.h"
+#import "Internal/IGListMoveIndexPathInternal.h"
 
 using namespace std;
 
