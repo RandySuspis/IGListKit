@@ -8,8 +8,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "IGListKit",
-            path: "Source"
+            name: "IGListKit"
         )
     ]
 )
